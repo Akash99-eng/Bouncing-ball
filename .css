@@ -1,0 +1,85 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#199;
+}
+ div ul{
+    margin-top:300px;
+    display:flex;
+    margin-left:-30px;
+    border-bottom:10px solid #ffffff;
+    width:380px;
+    box-shadow:0px 10px 10px;
+}
+div ul li{
+    width:20px;
+    height:20px;
+    background-color:blue;
+    margin:0 10px;
+    list-style:none;
+    border-radius:50%;
+    animation:bouncing 1s linear infinite;
+    
+
+}
+@keyframes bouncing{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-150px);}
+    100%{transform:translateY(0);}
+    
+}
+ul li:nth-child(1){
+    animation-delay:0.2s;
+    background-color:#fd79a8;
+}
+ul li:nth-child(2){
+    animation-delay:0.4s;
+    background-color:#ffffff;
+}
+ul li:nth-child(3){
+    animation-delay:0.6s;
+    background-color:#55efc4;
+}
+ul li:nth-child(4){
+    animation-delay:0.3s;
+    background-color:#81ecec;
+}
+ul li:nth-child(5){
+    animation-delay:0.7s;
+    background-color:red;
+}
+ul li:nth-child(6){
+    animation-delay:0.2s;
+    background-color:#fd79a8;
+}
+ul li:nth-child(7){
+    animation-delay:0.4s;
+    background-color:#ffffff;
+}
+ul li:nth-child(8){
+    animation-delay:0.6s;
+    background-color:#55efc4;
+}
+ul li:nth-child(9){
+    animation-delay:0.3s;
+    background-color:#81ecec;
+}
+ul li:nth-child(10){
+    animation-delay:0.7s;
+    background-color:red;}
+
+.line h1{
+font-family:serif;
+position:relative;
+left:50px;
+text-shadow:0px 5px 5px;
+animation:changing 1s linear infinite;
+    
+}
+@keyframes changing{
+    0%{color:#55efc4;}
+    10%{color:#81ecec;}
+    20%{color:#ffffff;}
+    30%{color:red;}
+    100%{color:blue;}
+}
